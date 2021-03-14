@@ -1,0 +1,14 @@
+count=int(0)
+x=int(input())
+a,b,c,d,e=list(map(int,input().split()))
+if(x==a):
+    count=count+1
+if(x==b):
+    count=count+1
+if(x==c):
+    count=count+1
+if(x==d):
+    count=count+1
+if(x==e):
+    count=count+1
+print(count)

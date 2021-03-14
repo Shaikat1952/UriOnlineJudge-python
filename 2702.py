@@ -1,0 +1,10 @@
+a,b,c=list(map(int,input().split()))
+d,e,f=list(map(int,input().split()))
+sum=int(0)
+if(d>a):
+    sum=sum+(d-a)
+if(e>b):
+    sum=sum+(e-b)
+if(f>c):
+    sum=sum+(f-c)
+print(sum)
